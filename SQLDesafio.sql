@@ -35,7 +35,7 @@ select f.Nome, g.Genero from Filmes f
 select f.Nome, g.Genero from Filmes f
 	 join FilmesGenero fg on fg.IdFilme = f.Id
 	 join Generos g	      on g.Id = fg.IdGenero
-	 where g.Genero = 'MistÃ©rio'
+	 where g.Genero = 'Mistério'
 
 select * from Atores
 
